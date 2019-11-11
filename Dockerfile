@@ -7,4 +7,3 @@ LABEL "org.label-schema.vendor"="OPOTEL Ltd" \
     description="Build, Test and Deploy as docker image Node.js projects"
     
 RUN curl -sSL https://get.docker.com/ | sh
-RUN curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh && bash nodesource_setup.sh
